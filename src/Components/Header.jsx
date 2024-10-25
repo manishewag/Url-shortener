@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom"
 import Dropdown from 'react-bootstrap/Dropdown';
 import { UrlState } from "../Context";
 import UseFetch from "../hooks/UseFetch";
-import { logout } from "../../db/apiAuth";
+import { logout } from "../db/apiAuth";
 import { BarLoader } from "react-spinners";
 
 

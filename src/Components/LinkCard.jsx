@@ -3,7 +3,7 @@ import { Copy, Download, Trash } from "lucide-react"
 import { Link } from "react-router-dom"
 import Button from 'react-bootstrap/Button';
 import UseFetch from "../hooks/UseFetch";
-import { deleteUrl } from "../../db/apiUrls";
+import { deleteUrl } from "../db/apiUrls";
 import { BeatLoader } from "react-spinners"
 const LinkCard = ({ url, fetchUrls}) => {
 

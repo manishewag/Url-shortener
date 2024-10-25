@@ -6,8 +6,8 @@ import { Filter } from "lucide-react"
 import { UrlState } from "../Context";
 import UseFetch from "../hooks/UseFetch";
 import Error from "../Components/Error";
-import { getUrls } from "../../db/apiUrls";
-import { getClicksForUrls } from "../../db/apiClicks";
+import { getUrls } from "../db/apiUrls";
+import { getClicksForUrls } from "../db/apiClicks";
 import LinkCard from "../Components/LinkCard";
 import CreateLink from "../Components/CreateLink";
 

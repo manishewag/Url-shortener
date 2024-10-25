@@ -10,7 +10,7 @@ import * as Yup from 'yup';
 import { QRCode } from "react-qrcode-logo";
 import { BeatLoader } from "react-spinners";
 import UseFetch from "../hooks/UseFetch";
-import { createUrl } from "../../db/apiUrls";
+import { createUrl } from "../db/apiUrls";
 
 
 const CreateLink = () => {

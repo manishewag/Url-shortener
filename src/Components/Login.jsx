@@ -5,7 +5,7 @@ import Error from "./Error"
 import { useEffect, useState } from "react"
 import * as Yup from "yup"
 import UseFetch from "../hooks/UseFetch"
-import { login } from "../../db/apiAuth"
+import { login } from "../db/apiAuth"
 import { useNavigate, useSearchParams } from "react-router-dom"
 import { UrlState } from "../Context"
 

@@ -1,8 +1,8 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { UrlState } from "../Context";
 import UseFetch from "../hooks/UseFetch";
-import { getClicksForUrl } from "../../db/apiClicks";
-import { deleteUrl, getUrl } from "../../db/apiUrls";
+import { getClicksForUrl } from "../db/apiClicks";
+import { deleteUrl, getUrl } from "../db/apiUrls";
 import { BarLoader } from "react-spinners";
 import { useEffect } from "react";
 import { LinkIcon } from "lucide-react";
